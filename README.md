@@ -38,5 +38,5 @@ To run the Jupyter Notebooks, you'll need the following dependencies:
 - Matplotlib
 - Seaborn
 
-Install the required packages using the following command:
+Install the required packages using the following command: pip install <package> or conda install <package>
 
