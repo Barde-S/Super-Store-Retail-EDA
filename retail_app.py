@@ -1039,8 +1039,41 @@ plt.ylabel('Count')
 
 # Displaying the plot in Streamlit
 st.pyplot(fig)
+st.markdown('<hr>', unsafe_allow_html=True)
 
-st.write
+
+st.write('''# Conclusion :
+
+## Recommendation base on insights from analysis:
+
+Base on the analysis, what is best suit for the business manager to take as decisions to improve weak areas are:
+
+
+1. Discount does not improve sales: The data indicates that offering discounts does not have a significant impact on increasing sales. This suggests that the company should explore other strategies to boost sales rather than relying solely on discounts.
+
+2. Decent number of stores recorded loss: A considerable number of stores in different regions and categories experienced losses. This highlights the need for the company to address the underlying factors contributing to these losses and take appropriate measures to improve profitability.
+
+3. No strong correlation between quantity of purchase and gain/loss: The analysis suggests that there is no strong correlation between the quantity of products purchased and the resulting gain or loss. This indicates that other factors, such as pricing, customer preferences, or market conditions, might have a more significant influence on sales performance.
+
+4. Discount does not drive increased product purchases: The data shows that offering discounts does not necessarily lead to higher product purchases. This implies that customers may not be motivated solely by discounts and that other factors, such as product quality, customer service, or brand reputation, could play a more significant role in driving sales.
+
+5. Sales distribution by category: The analysis reveals that office supplies were the most sold category, followed by furniture and technology. This information can be used to focus marketing efforts or inventory management strategies on the more popular categories.
+
+6. Segment analysis: The consumer segment appears to be the most frequent patronizer, followed by the corporate and home office segments. This insight can help tailor marketing and customer service approaches to cater to the specific needs and preferences of each segment.
+
+7. Top states with high losses: Several states, such as Texas, Ohio, Pennsylvania, and Illinois, recorded significant losses. This highlights the need to investigate and address the underlying reasons for these losses in each state.
+
+Based on these findings, here are some recommendations:
+
+- Continue to offer discounts, but be more strategic about when and how they are used.
+- Review pricing strategies: Instead of relying solely on discounts, consider adjusting product prices based on market demand, competition, and profitability analysis.
+- Focus on improving store profitability: Identify the reasons behind the losses in stores and regions and implement strategies to address those issues. This could involve optimizing inventory management, reducing operational costs, and exploring new marketing techniques.
+- Customer-centric approach: Instead of solely relying on discounts to drive sales, focus on enhancing the overall customer experience. This could include improving product quality, providing excellent customer service, and creating loyalty programs to encourage repeat purchases.
+- Market research: Conduct further market research to understand customer preferences, trends, and demands in different regions. This will help in tailoring marketing strategies and product offerings to better meet the needs of specific customer segments.
+- Optimize inventory management: Analyze inventory levels and sales data to identify any discrepancies or areas where improvements can be made. Implementing a robust inventory tracking system can help reduce losses due to theft or mismanagement.
+- Strengthen loss prevention practices: Implement loss prevention policies and train employees on best practices to prevent losses, such as theft or damage. Consider installing security cameras in high-traffic areas and collaborate with law enforcement if necessary.
+
+By addressing these recommendations, the company can improve its sales performance, reduce losses, and enhance overall profitability. ''')
 
 
 
