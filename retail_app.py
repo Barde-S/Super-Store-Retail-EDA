@@ -240,8 +240,9 @@ st.markdown('<hr>', unsafe_allow_html=True)
 
 
 
-st.code('df.groupby('Category')['Sub-Category'].value_counts()', language='python')
+st.code('''df.groupby('Category')['Sub-Category'].value_counts()''', language='python')
 st.write(df.groupby('Category')['Sub-Category'].value_counts())
+
 st.write('''1. Furniture Category:
 
 - Furnishings: The most common sub-category in the Furniture category, with a count of 957.
@@ -1012,9 +1013,34 @@ display(ship_loss)
 plt.figure(figsize=[6,6])
 ship_loss.plot(kind='bar')''', language='python')
 
+st.markdown('<hr>', unsafe_allow_html=True)
 
+st.code('''ship_loss = df2.groupby('Ship_Mode')['Ship_Mode'].value_counts()
+display(ship_loss)
+plt.figure(figsize=[6,6])
+ship_loss.plot(kind='bar')''')
 
+# Grouping by 'Ship_Mode' and counting the occurrences
+ship_loss = df2.groupby('Ship_Mode')['Ship_Mode'].value_counts()
 
+# Displaying the grouped data
+st.write(ship_loss)
+
+# Creating a figure with a specific size
+fig, ax = plt.subplots(figsize=(6, 6))
+
+# Creating the bar plot
+ship_loss.plot(kind='bar', ax=ax)
+
+# Setting the title and axis labels
+plt.title('Distribution of Ship Modes')
+plt.xlabel('Ship Mode')
+plt.ylabel('Count')
+
+# Displaying the plot in Streamlit
+st.pyplot(fig)
+
+st.write
 
 
 
