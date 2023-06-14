@@ -1039,6 +1039,7 @@ plt.ylabel('Count')
 
 # Displaying the plot in Streamlit
 st.pyplot(fig)
+'\n'
 st.markdown('<hr>', unsafe_allow_html=True)
 
 
@@ -1076,109 +1077,25 @@ Based on these findings, here are some recommendations:
 By addressing these recommendations, the company can improve its sales performance, reduce losses, and enhance overall profitability. ''')
 
 
+# Display a horizontal line
+st.markdown('<hr>', unsafe_allow_html=True)
 
+# Display a hyperlink to GitHub
+link = '[GitHub](https://github.com/Barde-S)'
+st.markdown(link, unsafe_allow_html=True)
 
+link = '[Twitter](https://twitter.com/S_Barde74)'
+st.markdown(link, unsafe_allow_html=True)
 
+link = '[LinkedIn](https://www.linkedin.com/in/shuaibu-sani-barde-21b835227)'
+st.markdown(link, unsafe_allow_html=True)
 
+link = '[YouTube](https://www.youtube.com/@shuaibubarde249/)'
+st.markdown(link, unsafe_allow_html=True)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# Display a horizontal line
+st.markdown('<hr>', unsafe_allow_html=True)
+st.write('<p style="text-align: right;">Shuaibu Sani Barde</p>', unsafe_allow_html=True)
 
 
 
