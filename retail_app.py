@@ -65,7 +65,7 @@ import streamlit as st
 import pandas as pd
 
 # Path to the CSV file
-csv_file_path = "C:\\Users\\Dell\\Documents\\Data Science\\Sparks Internship\\Super Store Reatail\\SampleSuperstore.csv"
+csv_file_path = "https://raw.githubusercontent.com/Barde-S/Super-Store-Retail-EDA/main/SampleSuperstore.csv"
 # Read the CSV file
 df = pd.read_csv(csv_file_path)
 
